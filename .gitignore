@@ -1,4 +1,5 @@
 api/.env
+.env
 client/.env
 .idea
 api/node_modules

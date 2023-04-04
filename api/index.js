@@ -4,10 +4,10 @@ const cookieParser = require('cookie-parser');
 const dotenv = require('dotenv');
 const jwt = require('jsonwebtoken');
 const cors = require('cors');
-const User = require('./models/User');
+
 const Message = require('./models/Message');
 const ws = require('ws');
-const fs = require('fs');
+
 const  authRoutes = require ('./routes/auth.routes.js')
 const peopleRoutes = require('./routes/people.routes.js')
 const messageRoutes = require('./routes/message.routes.js')
